@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Банный чан на природе">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#c8edf5"/>
+      <stop offset=".65" stop-color="#f7f1d2"/>
+      <stop offset="1" stop-color="#dfeeda"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <circle cx="970" cy="145" r="82" fill="#f2b84b"/>
+  <path d="M0 430c150-100 312-110 485-46 150 55 288 25 440-50 86-42 150-45 275-12v520H0z" fill="#6d8f2a"/>
+  <path d="M0 550c165-64 318-58 500 8 190 69 352 30 535-52 68-30 125-35 200-25v419H0z" fill="#2f4f3c"/>
+  <g transform="translate(245 400)">
+    <ellipse cx="355" cy="360" rx="300" ry="88" fill="#17211d" opacity=".22"/>
+    <path d="M75 245h610l-88 340H160z" fill="#1f2937" stroke="#17211d" stroke-width="14" stroke-linejoin="round"/>
+    <ellipse cx="380" cy="250" rx="330" ry="112" fill="#2f3745" stroke="#17211d" stroke-width="14"/>
+    <ellipse cx="380" cy="235" rx="270" ry="72" fill="#67e8f9" opacity=".75"/>
+    <path d="M150 236c85 36 170 38 255 8 92-32 178-28 265 10" fill="none" stroke="#ecfeff" stroke-width="15" stroke-linecap="round" opacity=".65"/>
+    <path d="M245 55c-28 52 25 70-5 126M390 40c-34 58 28 78-8 140M528 70c-22 42 20 62-6 106" fill="none" stroke="#fffefa" stroke-width="18" stroke-linecap="round" opacity=".85"/>
+    <path d="M80 585h620" stroke="#17211d" stroke-width="22" stroke-linecap="round"/>
+    <path d="M160 620h440" stroke="#8b5e34" stroke-width="28" stroke-linecap="round"/>
+    <path d="M120 150 40 72M680 160l86-84" stroke="#8b5e34" stroke-width="20" stroke-linecap="round"/>
+  </g>
+</svg>

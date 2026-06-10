@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Сплав на катамаране с ночевкой в домике">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#b9e6f3"/>
+      <stop offset=".62" stop-color="#f4e4aa"/>
+      <stop offset="1" stop-color="#d9f0cf"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" x2="1">
+      <stop stop-color="#0e7490"/>
+      <stop offset=".55" stop-color="#5ed6e6"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="tube" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#f8fafc"/>
+      <stop offset=".48" stop-color="#b8c2cc"/>
+      <stop offset="1" stop-color="#7d8793"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#sky)"/>
+  <circle cx="970" cy="150" r="78" fill="#f2b84b"/>
+  <path d="M0 410c145-85 300-92 455-36 145 52 260 23 400-52 95-50 215-40 345 15v360H0z" fill="#668829"/>
+  <path d="M0 560c170-64 330-54 500 4 180 60 333 36 520-46 72-31 132-38 200-24v280H0z" fill="#2f4f3c"/>
+  <path d="M0 765c225-80 405-62 610 5 180 58 340 44 520-28 60-24 113-30 170-20v478H0z" fill="url(#water)"/>
+  <path d="M95 860c160-32 300-14 455 35 180 58 335 42 520-36" fill="none" stroke="#ecfeff" stroke-width="16" stroke-linecap="round" opacity=".55"/>
+
+  <g transform="translate(710 430)">
+    <rect x="92" y="156" width="245" height="165" rx="8" fill="#fff7ed" stroke="#17211d" stroke-width="10"/>
+    <path d="M55 166 214 36l160 130z" fill="#b85f3a" stroke="#17211d" stroke-width="10" stroke-linejoin="round"/>
+    <rect x="190" y="235" width="52" height="86" fill="#2f4f3c"/>
+    <rect x="122" y="197" width="48" height="42" fill="#7dd3fc" stroke="#17211d" stroke-width="7"/>
+    <rect x="264" y="197" width="48" height="42" fill="#7dd3fc" stroke="#17211d" stroke-width="7"/>
+    <path d="M105 262h65M256 262h65" stroke="#d6a45d" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(650 740)">
+    <path d="M20 118h150M38 82h114M30 82v96M160 82v96" stroke="#5b3a21" stroke-width="12" stroke-linecap="round"/>
+    <path d="M230 122h150M248 86h114M240 86v96M370 86v96" stroke="#5b3a21" stroke-width="12" stroke-linecap="round"/>
+    <path d="M196 152l-34 62h124l-35-62z" fill="#6b341c" stroke="#17211d" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M217 145c-35 55 15 82 15 82s54-38 18-93c-5 29-22 34-33 11z" fill="#facc15"/>
+    <path d="M238 154c-22 38 10 58 10 58s37-25 13-64c-4 20-13 24-23 6z" fill="#fb7185"/>
+  </g>
+
+  <g transform="translate(155 785)">
+    <ellipse cx="360" cy="152" rx="330" ry="60" fill="#082f49" opacity=".18"/>
+    <path d="M55 90c12-48 56-76 122-76h500c68 0 115 29 132 76-18 48-65 76-132 76H177c-66 0-110-28-122-76z" fill="url(#tube)" stroke="#17211d" stroke-width="10"/>
+    <path d="M55 99c34 44 84 66 150 66h470c66 0 110-23 133-67v48c-23 47-70 76-137 76H174c-67 0-116-29-140-76z" fill="#1d4ed8"/>
+    <path d="M145 60h525M145 138h525M220 37v180M330 37v180M440 37v180M550 37v180" stroke="#263238" stroke-width="14" stroke-linecap="round"/>
+    <path d="M178 43h48M288 43h48M398 43h48M508 43h48M178 179h48M288 179h48M398 179h48M508 179h48" stroke="#f97316" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="300" cy="88" r="24" fill="#f8c18c" stroke="#17211d" stroke-width="7"/>
+    <circle cx="465" cy="88" r="24" fill="#f8c18c" stroke="#17211d" stroke-width="7"/>
+    <path d="M282 116h42M447 116h42" stroke="#17211d" stroke-width="17" stroke-linecap="round"/>
+    <path d="M705 68l86-46M748 45l35 48" stroke="#17211d" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>
