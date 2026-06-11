@@ -330,13 +330,15 @@ h3 {
 .rafting-swiper {
   width: 100%;
   padding: 0 0 44px;
+  overflow: visible;
   --swiper-pagination-bullet-size: 8px;
   --swiper-pagination-bullet-horizontal-gap: 4px;
 }
 
 .gallery-slide {
   position: relative;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 3;
+  max-height: min(62vh, 620px);
   height: auto;
   margin: 0;
   overflow: hidden;
@@ -372,6 +374,21 @@ h3 {
 
 .swiper-pagination-bullet-active {
   background: var(--cyan-dark);
+}
+
+@media (min-width: 980px) {
+  .gallery-section {
+    overflow: hidden;
+  }
+
+  .rafting-swiper {
+    padding-inline: clamp(28px, 7vw, 120px);
+  }
+
+  .gallery-slide {
+    aspect-ratio: 16 / 9;
+    max-height: min(58vh, 540px);
+  }
 }
 
 .price-grid {
@@ -1160,6 +1177,22 @@ h3 {
   color: #405149;
   font-size: clamp(1rem, 1.2vw, 1.12rem);
   line-height: 1.55;
+}
+
+.faq-answer-groups {
+  display: grid;
+  gap: 12px;
+  padding: 0 22px 22px;
+}
+
+.faq-answer-group h3 {
+  margin: 0 0 8px;
+  color: var(--clay);
+  font-size: clamp(1rem, 1.2vw, 1.12rem);
+}
+
+.faq-answer-group .faq-answer-list {
+  padding: 0 0 0 20px;
 }
 
 .faq-note {

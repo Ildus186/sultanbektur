@@ -190,7 +190,19 @@ app.innerHTML = `
         ${faq.map((item, index) => `
           <details ${index === 0 ? 'open' : ''}>
             <summary>${item.question}</summary>
-            ${item.answerItems ? `
+            ${item.answerGroups ? `
+              <div class="faq-answer-groups">
+                ${item.answerGroups.map((group) => `
+                  <div class="faq-answer-group">
+                    <h3>${group.title}</h3>
+                    <ul class="faq-answer-list">
+                      ${group.items.map((answerItem) => `<li>${answerItem}</li>`).join('')}
+                    </ul>
+                  </div>
+                `).join('')}
+              </div>
+              ${item.note ? `<p class="faq-note">${item.note}</p>` : ''}
+            ` : item.answerItems ? `
               <ul class="faq-answer-list">
                 ${item.answerItems.map((answerItem) => `<li>${answerItem}</li>`).join('')}
               </ul>
@@ -319,6 +331,10 @@ new Swiper('.rafting-swiper', {
     860: {
       slidesPerView: 1.35,
       spaceBetween: 22,
+    },
+    1200: {
+      slidesPerView: 1.55,
+      spaceBetween: 26,
     },
   },
 });
