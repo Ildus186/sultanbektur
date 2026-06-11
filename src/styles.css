@@ -21,12 +21,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
+  overflow-x: clip;
 }
 
 img {
@@ -316,6 +318,7 @@ h3 {
 
 .gallery-section {
   background: #eaf5f3;
+  overflow-x: clip;
 }
 
 .gallery-title {
@@ -330,7 +333,7 @@ h3 {
 .rafting-swiper {
   width: 100%;
   padding: 0 0 44px;
-  overflow: visible;
+  overflow: hidden;
   --swiper-pagination-bullet-size: 8px;
   --swiper-pagination-bullet-horizontal-gap: 4px;
 }
@@ -378,7 +381,7 @@ h3 {
 
 @media (min-width: 980px) {
   .gallery-section {
-    overflow: hidden;
+    overflow-x: clip;
   }
 
   .rafting-swiper {
